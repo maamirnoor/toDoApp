@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.header-bg{
+    background-image: url("https://cdn.wallpaperhub.app/cloudcache/7/4/f/3/d/5/74f3d51cbec9db78da32e103de1b28538af1b76a.jpg");
+    background-size: 100% 100%;
+    background-attachment: cover;
+    height: 400px;
+    opacity: 11;
+}
+.icon{
+    float:right;
+    margin-right: 20px;
+    font-size: medium;
+    clear: both;
+}
+.text-color{
+    color: cornsilk;
+}
+.heading{
+    color: #fff;
+    cursor: pointer;
+}
+.date{
+    position: relative;
+    top: 250px;
+    text-align:center;
+}
+.input-field{
+    width: 95%;
+    font-size: 16px;
+    padding: 10px 0;    
+    margin-left: 10px;
+}
+.deleteIcon{
+    font-size:24px !important;
+    color:red;
+    float: right;
+    margin: 8px;
+}
+.editIcon{
+    font-size:24px !important;
+    color:blue;
+    float: right;
+    margin: 10px;
+}
+.list-design{
+    margin: 10px!important;
+    list-style-type: none;
+    height: auto;
+    font-size: 30px;
+    font-weight:bold;
+    padding: 5px;
+}
+.fa{
+    cursor: pointer;
+}
+.add-items{
+    background:ghostwhite;
+}
+@media(max-width:890px){
+    .input-field{
+        width: 80%;
+    }
+}  
